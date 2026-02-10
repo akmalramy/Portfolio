@@ -1,0 +1,212 @@
+.timelineItem {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.timelineItem.left {
+  text-align: right;
+}
+
+.timelineItem.right {
+  text-align: left;
+}
+
+.timelineItem.left .timelineContent {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.timelineItem.right .timelineContent {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.timelineDot {
+  grid-column: 2;
+  grid-row: 1;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.timelineDot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border-radius: 50%;
+  opacity: 0.2;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.dotInner {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--color-bg), 0 0 20px rgba(99, 102, 241, 0.5);
+  position: relative;
+  z-index: 1;
+}
+
+.timelineContent {
+  position: relative;
+}
+
+.timelineCard {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+.timelineCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-slow);
+}
+
+.timelineItem:hover .timelineCard::before {
+  transform: scaleX(1);
+}
+
+.timelineItem:hover .timelineCard {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-glow), var(--shadow-xl);
+}
+
+.cardHeader h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text);
+}
+
+.company {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.meta {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.timelineItem.left .meta {
+  justify-content: flex-end;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.responsibilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.responsibilities li {
+  position: relative;
+  padding-left: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+}
+
+.timelineItem.left .responsibilities li {
+  padding-left: 0;
+  padding-right: var(--spacing-md);
+}
+
+.responsibilities li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.timelineItem.left .responsibilities li::before {
+  left: auto;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .timelineItem {
+    grid-template-columns: 40px 1fr;
+    gap: var(--spacing-md);
+    text-align: left;
+  }
+  
+  .timelineItem.left .timelineContent,
+  .timelineItem.right .timelineContent {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .timelineDot {
+    grid-column: 1;
+  }
+  
+  .timelineItem.left .meta {
+    justify-content: flex-start;
+  }
+  
+  .timelineItem.left .responsibilities li {
+    padding-left: var(--spacing-md);
+    padding-right: 0;
+  }
+  
+  .timelineItem.left .responsibilities li::before {
+    left: 0;
+    right: auto;
+  }
+  
+  .meta {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+  }
+}

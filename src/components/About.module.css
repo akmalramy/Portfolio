@@ -1,0 +1,86 @@
+.about {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+}
+
+.gradient {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.description {
+  font-size: var(--text-xl);
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  max-width: 800px;
+  margin: 0 auto var(--spacing-3xl);
+}
+
+.highlightsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.highlightCard {
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.iconWrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--spacing-lg);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: var(--shadow-glow);
+  position: relative;
+}
+
+.iconWrapper::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: var(--radius-xl);
+  padding: 4px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0.3;
+}
+
+.highlightCard h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.highlightCard p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .highlightsGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}

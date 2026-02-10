@@ -1,0 +1,122 @@
+.footer {
+  background: var(--color-surface);
+  padding: var(--spacing-3xl) var(--spacing-lg) var(--spacing-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--color-primary) 30%, 
+    var(--color-accent) 70%, 
+    transparent 100%
+  );
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content {
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.socialLink {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg);
+  border: 2px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  transition: all var(--transition-base);
+}
+
+.socialLink:hover {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border-color: transparent;
+  color: white;
+  box-shadow: var(--shadow-glow);
+}
+
+.copyright {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
+.madeWith {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.heart {
+  color: #ef4444;
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10%, 30% {
+    transform: scale(1.1);
+  }
+  20%, 40% {
+    transform: scale(1);
+  }
+}
+
+.year {
+  font-size: var(--text-xs);
+  opacity: 0.7;
+}
+
+.decoration {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  overflow: hidden;
+}
+
+.decorationLine {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    var(--color-primary) 0%, 
+    var(--color-accent) 50%, 
+    var(--color-primary) 100%
+  );
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.card.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-lg);
+}
+
+.card.elevated {
+  background: var(--color-surface);
+  box-shadow: var(--shadow-xl);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] .card.elevated {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cardBorder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-xl);
+  padding: 2px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.card:hover .cardBorder {
+  opacity: 1;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-glow), var(--shadow-xl);
+}
+
+.cardContent {
+  position: relative;
+  background: var(--glass-bg);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-lg);
+  height: 100%;
+  z-index: 1;
+}
+
+.card.elevated .cardContent {
+  background: var(--color-surface);
+}
+
+@media (max-width: 768px) {
+  .cardContent {
+    padding: var(--spacing-md);
+  }
+}
