@@ -61,6 +61,7 @@ const Projects = () => {
               <div className={styles.projectCard}>
                 <div className={styles.projectHeader}>
                   <h3>{project.title}</h3>
+                  {/*
                   <div className={styles.projectLinks}>
                     <motion.a 
                       href={project.github}
@@ -79,6 +80,7 @@ const Projects = () => {
                       <ExternalLink size={20} />
                     </motion.a>
                   </div>
+                  */}
                 </div>
                 
                 <p className={styles.projectDescription}>
