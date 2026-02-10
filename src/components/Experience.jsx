@@ -9,7 +9,7 @@ const Experience = () => {
       title: 'Data Engineering Microsoft Track',
       company: 'DEPI',
       location: 'Remote',
-      period: '2024',
+      period: 'NOV 2025 - Present',
       responsibilities: [
         'Built secure cloud data architectures',
         'Developed ETL/ELT pipelines using Azure Data Factory, Databricks, PySpark, SQL',
@@ -18,10 +18,22 @@ const Experience = () => {
       ]
     },
     {
+      title: 'HR Talent Acquisition',
+      company: 'National Bank of Egypt',
+      location: 'Cairo, Egypt',
+      period: 'JUL 2025 - AUG 2025',
+      responsibilities: [
+        'Built analytics dashboards supporting recruitment insights',
+        'Conducted workforce analytics supporting accessibility initiatives',
+        'Analyzed recruitment data to optimize hiring processes',
+        'Created reports for HR management decision support'
+      ]
+    },
+    {
       title: 'Data Analyst Intern',
       company: 'National Telecom Regulatory Authority',
       location: 'Cairo, Egypt',
-      period: '2024',
+      period: 'JUL 2024 - AUG 2024',
       responsibilities: [
         'Analyzed large datasets using Excel & SQL',
         'Built Power BI dashboards for KPIs',
@@ -29,18 +41,6 @@ const Experience = () => {
         'Delivered data-driven insights for decision making'
       ]
     },
-    {
-      title: 'HR Talent Acquisition',
-      company: 'National Bank of Egypt',
-      location: 'Cairo, Egypt',
-      period: '2023',
-      responsibilities: [
-        'Built analytics dashboards supporting recruitment insights',
-        'Conducted workforce analytics supporting accessibility initiatives',
-        'Analyzed recruitment data to optimize hiring processes',
-        'Created reports for HR management decision support'
-      ]
-    }
   ]
 
   const titleVariants = {
