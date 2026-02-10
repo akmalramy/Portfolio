@@ -42,6 +42,16 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  // Lock body scroll when mobile sidebar is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [isOpen])
+
   return (
     <motion.nav 
       className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}
@@ -116,30 +126,57 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Sidebar */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div
-            className={styles.mobileNav}
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3 }}
-          >
-            {navItems.map((item, index) => (
-              <motion.a
-                key={item.name}
-                href={item.href}
-                className={`${styles.mobileNavLink} ${activeSection === item.href.substring(1) ? styles.active : ''}`}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.05 }}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </motion.a>
-            ))}
-          </motion.div>
+          <>
+            <motion.div
+              className={styles.overlay}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              onClick={() => setIsOpen(false)}
+            />
+
+            <motion.aside
+              className={styles.sidebar}
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ type: 'tween', duration: 0.25 }}
+            >
+              <div className={styles.sidebarHeader}>
+                <a href="#home" className={styles.logo} onClick={() => setIsOpen(false)}>
+                  <span className={styles.logoText}>AR</span>
+                  <div className={styles.logoAccent} />
+                </a>
+                <button className={styles.menuButton} onClick={() => setIsOpen(false)} aria-label="Close menu">
+                  <X size={20} />
+                </button>
+              </div>
+
+              <nav className={styles.sidebarNav}>
+                {navItems.map((item, index) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className={`${styles.mobileNavLink} ${activeSection === item.href.substring(1) ? styles.active : ''}`}
+                    onClick={() => setIsOpen(false)}
+                    style={{ display: 'block' }}
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </nav>
+
+              <div className={styles.sidebarFooter}>
+                <button onClick={toggleDarkMode} className={styles.themeToggle} aria-label="Toggle dark mode">
+                  {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+                </button>
+              </div>
+            </motion.aside>
+          </>
         )}
       </AnimatePresence>
     </motion.nav>

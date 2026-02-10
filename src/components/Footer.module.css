@@ -71,7 +71,7 @@
 }
 
 .heart {
-  color: #ef4444;
+  color: var(--color-primary);
   animation: heartbeat 1.5s ease-in-out infinite;
 }
 
