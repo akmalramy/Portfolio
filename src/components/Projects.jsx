@@ -6,20 +6,20 @@ import styles from './Projects.module.css'
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Cloud Data Warehouse Architecture',
-      description: 'Designed and implemented a scalable cloud data warehouse on Azure Synapse Analytics with optimized data models, partitioning strategies, and query performance tuning for handling large-scale analytics workloads.',
-      tech: ['Azure Synapse', 'SQL', 'Data Modeling', 'Performance Tuning'],
-      github: '#',
-      demo: '#'
-    },
-    {
-      title: 'Azure ETL Pipeline Automation',
-      description: 'Built automated ETL pipelines using Azure Data Factory and Databricks to process and transform data from multiple sources, with error handling, logging, and monitoring capabilities.',
-      tech: ['Azure Data Factory', 'Databricks', 'PySpark', 'Python'],
-      github: '#',
-      demo: '#'
-    },
+    // {
+    //   title: 'Cloud Data Warehouse Architecture',
+    //   description: 'Designed and implemented a scalable cloud data warehouse on Azure Synapse Analytics with optimized data models, partitioning strategies, and query performance tuning for handling large-scale analytics workloads.',
+    //   tech: ['Azure Synapse', 'SQL', 'Data Modeling', 'Performance Tuning'],
+    //   github: '#',
+    //   demo: '#'
+    // },
+    // {
+    //   title: 'Azure ETL Pipeline Automation',
+    //   description: 'Built automated ETL pipelines using Azure Data Factory and Databricks to process and transform data from multiple sources, with error handling, logging, and monitoring capabilities.',
+    //   tech: ['Azure Data Factory', 'Databricks', 'PySpark', 'Python'],
+    //   github: '#',
+    //   demo: '#'
+    // },
     {
       title: 'Power BI KPI Dashboard System',
       description: 'Created comprehensive Power BI dashboards for tracking key performance indicators across multiple business units, featuring interactive visualizations, drill-down capabilities, and real-time data refresh.',
