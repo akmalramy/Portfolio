@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Download, Mail, MapPin, ArrowRight } from 'lucide-react'
 import styles from './Hero.module.css'
+import avatarImg from '../assets/images/pfp.jpg'
 
 const Hero = () => {
   const containerVariants = {
@@ -80,7 +81,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a 
-              href="/cv.pdf" 
+              href="../assets/docs/Akmal_Ramy_CV.pdf" 
               download 
               className={styles.btnOutline}
               whileHover={{ scale: 1.05 }}
@@ -100,7 +101,7 @@ const Hero = () => {
         >
           <div className={styles.avatarWrapper}>
             <div className={styles.avatar}>
-              <span>AR</span>
+              <img src={avatarImg} alt="Akmal Ramy" className={styles.avatarImg} />
             </div>
             <motion.div 
               className={styles.ring}

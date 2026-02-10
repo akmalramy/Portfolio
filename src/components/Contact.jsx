@@ -31,8 +31,8 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       label: 'Email',
-      value: 'akmal.ramy@example.com',
-      href: 'mailto:akmal.ramy@example.com'
+      value: 'akmallramy@gmail.com',
+      href: 'mailto:akmallramy@gmail.com'
     },
     {
       icon: <Phone size={24} />,
@@ -43,8 +43,8 @@ const Contact = () => {
     {
       icon: <Linkedin size={24} />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/akmalramy',
-      href: 'https://linkedin.com/in/akmalramy'
+      value: 'https://www.linkedin.com/in/akmal-ramy',
+      href: 'https://www.linkedin.com/in/akmal-ramy'
     }
   ]
 
@@ -129,7 +129,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className={styles.input}
-                  placeholder="your.email@example.com"
+                  placeholder="akmallramy@gmail.com"
                 />
               </div>
 
