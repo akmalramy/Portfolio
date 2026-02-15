@@ -1,3 +1,35 @@
+/* See More Button Styles */
+.seeMoreBtn {
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+  color: var(--color-text);
+  border: none;
+  box-shadow: var(--shadow-glow);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  margin-top: var(--spacing-lg);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), background var(--transition-base), color var(--transition-base);
+}
+
+.seeMoreBtn:hover, .seeMoreBtn:focus {
+  background: linear-gradient(90deg, var(--color-primary-light), var(--color-accent-light));
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 24px rgba(239, 68, 68, 0.25);
+}
+
+[data-theme='dark'] .seeMoreBtn {
+  background: linear-gradient(90deg, var(--color-primary-dark), var(--color-accent));
+  color: var(--color-text-dark);
+}
+
+[data-theme='dark'] .seeMoreBtn:hover, [data-theme='dark'] .seeMoreBtn:focus {
+  background: linear-gradient(90deg, var(--color-primary), var(--color-accent-light));
+  color: #fff;
+}
 .projects {
   text-align: center;
 }

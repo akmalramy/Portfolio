@@ -3,8 +3,8 @@
   --color-primary: #ef4444;
   --color-primary-light: #f87171;
   --color-primary-dark: #dc2626;
-  --color-accent: #000000;
-  --color-accent-light: #111827;
+  --color-accent: #23272f;
+  --color-accent-light: #374151;
   
   /* Neutrals */
   --color-bg-light: #ffffff;
@@ -71,6 +71,7 @@
   --z-tooltip: 3000;
 }
 
+
 [data-theme='dark'] {
   --color-bg: var(--color-bg-dark);
   --color-surface: var(--color-surface-dark);
@@ -78,6 +79,8 @@
   --color-text-muted: var(--color-text-muted-dark);
   --glass-bg: var(--glass-bg-dark);
   --glass-border: var(--glass-border-dark);
+  --color-accent: #374151;
+  --color-accent-light: #4b5563;
 }
 
 [data-theme='light'] {

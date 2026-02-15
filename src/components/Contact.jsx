@@ -129,7 +129,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className={styles.input}
-                  placeholder="akmallramy@gmail.com"
+                  placeholder="yourname@example.com"
                 />
               </div>
 
