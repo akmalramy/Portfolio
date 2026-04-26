@@ -1,0 +1,2694 @@
+[
+  {
+    "english": "#about",
+    "arabic": "حول"
+  },
+  {
+    "english": "#contact",
+    "arabic": "اتصال"
+  },
+  {
+    "english": "#education",
+    "arabic": "تعليم"
+  },
+  {
+    "english": "#experience",
+    "arabic": "خبرة"
+  },
+  {
+    "english": "#home",
+    "arabic": "الصفحة الرئيسية"
+  },
+  {
+    "english": "#projects",
+    "arabic": "مشاريع"
+  },
+  {
+    "english": "#skills",
+    "arabic": "مهارات"
+  },
+  {
+    "english": "$100M",
+    "arabic": "100 مليون دولار"
+  },
+  {
+    "english": "&copy",
+    "arabic": "الحقوق المحفوظة"
+  },
+  {
+    "english": "5M",
+    "arabic": "5 مليون"
+  },
+  {
+    "english": "<AnimatedCard",
+    "arabic": "<بطاقة متحركة"
+  },
+  {
+    "english": "<ArrowRight",
+    "arabic": "<سهم إلى اليمين"
+  },
+  {
+    "english": "<Download",
+    "arabic": "<تنزيل"
+  },
+  {
+    "english": "<Linkedin",
+    "arabic": "<لينكد إن"
+  },
+  {
+    "english": "<Mail",
+    "arabic": "<بريد"
+  },
+  {
+    "english": "<MapPin",
+    "arabic": "<دبوس الخريطة"
+  },
+  {
+    "english": "<Phone",
+    "arabic": "<هاتف"
+  },
+  {
+    "english": "<SectionWrapper",
+    "arabic": "<غلاف القسم"
+  },
+  {
+    "english": "<div",
+    "arabic": "<قسم"
+  },
+  {
+    "english": "<h3>Contact",
+    "arabic": "<h3>اتصل"
+  },
+  {
+    "english": "<img",
+    "arabic": "<صورة"
+  },
+  {
+    "english": "<motion",
+    "arabic": "<حركة"
+  },
+  {
+    "english": "<p",
+    "arabic": "<فقرة"
+  },
+  {
+    "english": "<path",
+    "arabic": "<مسار"
+  },
+  {
+    "english": "<section",
+    "arabic": "<قسم"
+  },
+  {
+    "english": "<span",
+    "arabic": "<نص"
+  },
+  {
+    "english": "<span>Cairo",
+    "arabic": "<span>القاهرة"
+  },
+  {
+    "english": "<span>☁️<",
+    "arabic": "<span>☁️<"
+  },
+  {
+    "english": "<span>📊<",
+    "arabic": "<span>📊<"
+  },
+  {
+    "english": "<svg",
+    "arabic": "<رسومات متجهة"
+  },
+  {
+    "english": ">Akmal",
+    "arabic": "[>Akmal]"
+  },
+  {
+    "english": ">Touch<",
+    "arabic": "[>Touch<]"
+  },
+  {
+    "english": "AR",
+    "arabic": "واقع افتراضي"
+  },
+  {
+    "english": "AUG",
+    "arabic": "أغسطس"
+  },
+  {
+    "english": "About",
+    "arabic": "معلومات عني"
+  },
+  {
+    "english": "Acquisition",
+    "arabic": "استحواذ"
+  },
+  {
+    "english": "Akmal",
+    "arabic": "أكمل"
+  },
+  {
+    "english": "All",
+    "arabic": "الكل"
+  },
+  {
+    "english": "Analysis",
+    "arabic": "تحليل"
+  },
+  {
+    "english": "Analyst",
+    "arabic": "محلل"
+  },
+  {
+    "english": "Analytics",
+    "arabic": "تحليلات"
+  },
+  {
+    "english": "Analyzed",
+    "arabic": "تم تحليله"
+  },
+  {
+    "english": "AnimatedCard",
+    "arabic": "بطاقة متحركة"
+  },
+  {
+    "english": "App",
+    "arabic": "تطبيق"
+  },
+  {
+    "english": "Architecture",
+    "arabic": "هندسة معمارية"
+  },
+  {
+    "english": "Arizona",
+    "arabic": "أريزونا"
+  },
+  {
+    "english": "Authority",
+    "arabic": "سلطة"
+  },
+  {
+    "english": "Available",
+    "arabic": "متاح"
+  },
+  {
+    "english": "Azure",
+    "arabic": "أزرق"
+  },
+  {
+    "english": "BI",
+    "arabic": "معلومات kinh doanh"
+  },
+  {
+    "english": "Bachelor",
+    "arabic": "بكالوريوس"
+  },
+  {
+    "english": "Bank",
+    "arabic": "بنك"
+  },
+  {
+    "english": "Branch",
+    "arabic": "فرع"
+  },
+  {
+    "english": "Building",
+    "arabic": "مبنى"
+  },
+  {
+    "english": "Built",
+    "arabic": "مبني"
+  },
+  {
+    "english": "Business",
+    "arabic": "عمل"
+  },
+  {
+    "english": "CSS",
+    "arabic": "سي إس إس"
+  },
+  {
+    "english": "CV",
+    "arabic": "السيرة الذاتية"
+  },
+  {
+    "english": "Cairo",
+    "arabic": "القاهرة"
+  },
+  {
+    "english": "Close",
+    "arabic": "إغلاق"
+  },
+  {
+    "english": "Cloud",
+    "arabic": "سحابة"
+  },
+  {
+    "english": "Commerce",
+    "arabic": "تجارة"
+  },
+  {
+    "english": "Computing",
+    "arabic": "حوسبة"
+  },
+  {
+    "english": "Conducted",
+    "arabic": "أجري"
+  },
+  {
+    "english": "Contact",
+    "arabic": "اتصال"
+  },
+  {
+    "english": "Coursework",
+    "arabic": "أعمال مقرر"
+  },
+  {
+    "english": "Created",
+    "arabic": "تم إنشاؤه"
+  },
+  {
+    "english": "Creating",
+    "arabic": "إنشاء"
+  },
+  {
+    "english": "DAX",
+    "arabic": "داكس"
+  },
+  {
+    "english": "DEPI",
+    "arabic": "ديبي"
+  },
+  {
+    "english": "Dashboard",
+    "arabic": "لوحة تحكم"
+  },
+  {
+    "english": "Dashboards",
+    "arabic": "لوحات تحكم"
+  },
+  {
+    "english": "Data",
+    "arabic": "بيانات"
+  },
+  {
+    "english": "Database",
+    "arabic": "قاعدة بيانات"
+  },
+  {
+    "english": "Databases",
+    "arabic": "قواعد بيانات"
+  },
+  {
+    "english": "Databricks",
+    "arabic": "داتابريكس"
+  },
+  {
+    "english": "Date",
+    "arabic": "تاريخ"
+  },
+  {
+    "english": "Delivered",
+    "arabic": "تم تسليمها"
+  },
+  {
+    "english": "Design",
+    "arabic": "تصميم"
+  },
+  {
+    "english": "Designed",
+    "arabic": "صمم"
+  },
+  {
+    "english": "Designing",
+    "arabic": "تصميم"
+  },
+  {
+    "english": "Desktop",
+    "arabic": "مكتب"
+  },
+  {
+    "english": "Detect",
+    "arabic": "اكتشف"
+  },
+  {
+    "english": "Developed",
+    "arabic": "تم تطويره"
+  },
+  {
+    "english": "Download",
+    "arabic": "تنزيل"
+  },
+  {
+    "english": "E",
+    "arabic": "إ"
+  },
+  {
+    "english": "ELT",
+    "arabic": "إلت"
+  },
+  {
+    "english": "ERD",
+    "arabic": "إرد"
+  },
+  {
+    "english": "ETL",
+    "arabic": "إيتيل"
+  },
+  {
+    "english": "EVP",
+    "arabic": "إف بي"
+  },
+  {
+    "english": "Education",
+    "arabic": "التعليم"
+  },
+  {
+    "english": "Egypt",
+    "arabic": "مصر"
+  },
+  {
+    "english": "Egypt<",
+    "arabic": "[Egypt<]"
+  },
+  {
+    "english": "Email",
+    "arabic": "البريد الالكتروني"
+  },
+  {
+    "english": "End",
+    "arabic": "نهاية"
+  },
+  {
+    "english": "Engineer",
+    "arabic": "مهندس"
+  },
+  {
+    "english": "Engineering",
+    "arabic": "هندسة"
+  },
+  {
+    "english": "Excel",
+    "arabic": "إكسل"
+  },
+  {
+    "english": "Expected",
+    "arabic": "مترقب"
+  },
+  {
+    "english": "Experience",
+    "arabic": "خبرة"
+  },
+  {
+    "english": "Exploratory",
+    "arabic": "استكشافي"
+  },
+  {
+    "english": "Factory",
+    "arabic": "مصنع"
+  },
+  {
+    "english": "Featured",
+    "arabic": "متميز"
+  },
+  {
+    "english": "Financial",
+    "arabic": "مالي"
+  },
+  {
+    "english": "FloatingNavbar",
+    "arabic": "شريط التنقل العائم"
+  },
+  {
+    "english": "Footer",
+    "arabic": "التذييل"
+  },
+  {
+    "english": "Form",
+    "arabic": "استمارة"
+  },
+  {
+    "english": "Galala",
+    "arabic": "جلالة"
+  },
+  {
+    "english": "Get",
+    "arabic": "احصل"
+  },
+  {
+    "english": "GitHub",
+    "arabic": "جيت هاب"
+  },
+  {
+    "english": "Graduation",
+    "arabic": "تخرج"
+  },
+  {
+    "english": "HR",
+    "arabic": "موارد بشرية"
+  },
+  {
+    "english": "HTML",
+    "arabic": "إتش تي إم إل"
+  },
+  {
+    "english": "Hero",
+    "arabic": "البطل"
+  },
+  {
+    "english": "Hi",
+    "arabic": "مرحبا"
+  },
+  {
+    "english": "Home",
+    "arabic": "المنزل"
+  },
+  {
+    "english": "I",
+    "arabic": "أنا"
+  },
+  {
+    "english": "Impact",
+    "arabic": "تأثير"
+  },
+  {
+    "english": "Implemented",
+    "arabic": "منفذ"
+  },
+  {
+    "english": "In",
+    "arabic": "في"
+  },
+  {
+    "english": "Indexing",
+    "arabic": "فهرسة"
+  },
+  {
+    "english": "Infinity",
+    "arabic": "لامناهية"
+  },
+  {
+    "english": "Information",
+    "arabic": "معلومات"
+  },
+  {
+    "english": "Information<",
+    "arabic": "معلومات"
+  },
+  {
+    "english": "Insights",
+    "arabic": "perspectives"
+  },
+  {
+    "english": "Intelligence",
+    "arabic": "ذكاء"
+  },
+  {
+    "english": "Intern",
+    "arabic": "متدرب"
+  },
+  {
+    "english": "IoT",
+    "arabic": "أجهزة إنترنت"
+  },
+  {
+    "english": "JUL",
+    "arabic": "يوليو"
+  },
+  {
+    "english": "July",
+    "arabic": "يوليو"
+  },
+  {
+    "english": "Junior",
+    "arabic": "جونيور"
+  },
+  {
+    "english": "KPI",
+    "arabic": "مؤشر أداء رئيسي"
+  },
+  {
+    "english": "KPIs",
+    "arabic": "مؤشرات الأداء الرئيسية"
+  },
+  {
+    "english": "LinkedIn",
+    "arabic": "لينكد إن"
+  },
+  {
+    "english": "Lock",
+    "arabic": "قفل"
+  },
+  {
+    "english": "Management",
+    "arabic": "إدارة"
+  },
+  {
+    "english": "Market",
+    "arabic": "سوق"
+  },
+  {
+    "english": "Matplotlib",
+    "arabic": "ماتبлотليب"
+  },
+  {
+    "english": "Me",
+    "arabic": "أنا"
+  },
+  {
+    "english": "Message",
+    "arabic": "رسالة"
+  },
+  {
+    "english": "Microsoft",
+    "arabic": "مايكروسوفت"
+  },
+  {
+    "english": "Mobile",
+    "arabic": "جوال"
+  },
+  {
+    "english": "Modeling",
+    "arabic": "نمذجة"
+  },
+  {
+    "english": "More",
+    "arabic": "المزيد"
+  },
+  {
+    "english": "MySQL",
+    "arabic": "ماي إس كيو إل"
+  },
+  {
+    "english": "NBE",
+    "arabic": "البنك الأهلي"
+  },
+  {
+    "english": "NOV",
+    "arabic": "نوفمبر"
+  },
+  {
+    "english": "Name",
+    "arabic": "اسم"
+  },
+  {
+    "english": "National",
+    "arabic": "وطني"
+  },
+  {
+    "english": "Navigation",
+    "arabic": "تنقل"
+  },
+  {
+    "english": "NumPy",
+    "arabic": "[NumPy]"
+  },
+  {
+    "english": "Olist",
+    "arabic": "[Olist]"
+  },
+  {
+    "english": "Optimization",
+    "arabic": "[Optimization]"
+  },
+  {
+    "english": "PWD",
+    "arabic": "[PWD]"
+  },
+  {
+    "english": "Pandas",
+    "arabic": "[Pandas]"
+  },
+  {
+    "english": "Performance",
+    "arabic": "[Performance]"
+  },
+  {
+    "english": "Performed",
+    "arabic": "[Performed]"
+  },
+  {
+    "english": "Phone",
+    "arabic": "[Phone]"
+  },
+  {
+    "english": "Pipelines",
+    "arabic": "[Pipelines]"
+  },
+  {
+    "english": "Platform",
+    "arabic": "منصّة"
+  },
+  {
+    "english": "Plotly",
+    "arabic": "[Plotly]"
+  },
+  {
+    "english": "Power",
+    "arabic": "[Power]"
+  },
+  {
+    "english": "Present",
+    "arabic": "[Present]"
+  },
+  {
+    "english": "Procedures",
+    "arabic": "[Procedures]"
+  },
+  {
+    "english": "Programming",
+    "arabic": "[Programming]"
+  },
+  {
+    "english": "Project",
+    "arabic": "[Project]"
+  },
+  {
+    "english": "Projects",
+    "arabic": "[Projects]"
+  },
+  {
+    "english": "PySpark",
+    "arabic": "[PySpark]"
+  },
+  {
+    "english": "Python",
+    "arabic": "[Python]"
+  },
+  {
+    "english": "Query",
+    "arabic": "[Query]"
+  },
+  {
+    "english": "ROI",
+    "arabic": "[ROI]"
+  },
+  {
+    "english": "Ramy",
+    "arabic": "[Ramy]"
+  },
+  {
+    "english": "Ramy<",
+    "arabic": "[Ramy<]"
+  },
+  {
+    "english": "Regulatory",
+    "arabic": "[Regulatory]"
+  },
+  {
+    "english": "Relevant",
+    "arabic": "[Relevant]"
+  },
+  {
+    "english": "Remote",
+    "arabic": "[Remote]"
+  },
+  {
+    "english": "Revenue",
+    "arabic": "[Revenue]"
+  },
+  {
+    "english": "RunReports",
+    "arabic": "[RunReports]"
+  },
+  {
+    "english": "SQL",
+    "arabic": "[SQL]"
+  },
+  {
+    "english": "Schema",
+    "arabic": "[Schema]"
+  },
+  {
+    "english": "Seaborn",
+    "arabic": "سيبورن"
+  },
+  {
+    "english": "SectionWrapper",
+    "arabic": "مغلف القسم"
+  },
+  {
+    "english": "See",
+    "arabic": "انظر"
+  },
+  {
+    "english": "Send",
+    "arabic": "أرسل"
+  },
+  {
+    "english": "Series",
+    "arabic": "سلسلة"
+  },
+  {
+    "english": "Server",
+    "arabic": "خادم"
+  },
+  {
+    "english": "Sidebar",
+    "arabic": "شريط جانبي"
+  },
+  {
+    "english": "Skills",
+    "arabic": "مهارات"
+  },
+  {
+    "english": "Social",
+    "arabic": "اجتماعي"
+  },
+  {
+    "english": "Star",
+    "arabic": "نجم"
+  },
+  {
+    "english": "State",
+    "arabic": "حالة"
+  },
+  {
+    "english": "Stored",
+    "arabic": "مخزن"
+  },
+  {
+    "english": "Strategy",
+    "arabic": "استراتيجية"
+  },
+  {
+    "english": "Structures",
+    "arabic": "هياكل"
+  },
+  {
+    "english": "Survival",
+    "arabic": "بقاء"
+  },
+  {
+    "english": "Synapse",
+    "arabic": "تشابك"
+  },
+  {
+    "english": "System",
+    "arabic": "نظام"
+  },
+  {
+    "english": "Systems",
+    "arabic": "نظم"
+  },
+  {
+    "english": "T",
+    "arabic": "ت"
+  },
+  {
+    "english": "Tableau",
+    "arabic": "تаблицو"
+  },
+  {
+    "english": "Talent",
+    "arabic": "موهبة"
+  },
+  {
+    "english": "Technologies",
+    "arabic": "تكنولوجيات"
+  },
+  {
+    "english": "Telecom",
+    "arabic": "اتصالات"
+  },
+  {
+    "english": "Thank",
+    "arabic": "شكرا"
+  },
+  {
+    "english": "Time",
+    "arabic": "زمن"
+  },
+  {
+    "english": "TimelineItem",
+    "arabic": "عنصر الجدول الزمني"
+  },
+  {
+    "english": "Titanic",
+    "arabic": "تيتانيك"
+  },
+  {
+    "english": "Toggle",
+    "arabic": "تبديل"
+  },
+  {
+    "english": "Touch",
+    "arabic": "لمس"
+  },
+  {
+    "english": "Track",
+    "arabic": "تتبع"
+  },
+  {
+    "english": "University",
+    "arabic": "جامعة"
+  },
+  {
+    "english": "View",
+    "arabic": "منظر"
+  },
+  {
+    "english": "Visualization",
+    "arabic": "تجسيد"
+  },
+  {
+    "english": "Warehousing",
+    "arabic": "تخزين"
+  },
+  {
+    "english": "Work",
+    "arabic": "عمل"
+  },
+  {
+    "english": "Your",
+    "arabic": "يك"
+  },
+  {
+    "english": "a",
+    "arabic": "أ"
+  },
+  {
+    "english": "a>",
+    "arabic": "أ>"
+  },
+  {
+    "english": "about",
+    "arabic": "حول"
+  },
+  {
+    "english": "academic",
+    "arabic": "اكاديمي"
+  },
+  {
+    "english": "accessibility",
+    "arabic": "إمكانية الوصول"
+  },
+  {
+    "english": "across",
+    "arabic": "عبر"
+  },
+  {
+    "english": "actionable",
+    "arabic": "يمكن تنفيذه"
+  },
+  {
+    "english": "actions",
+    "arabic": "إجراءات"
+  },
+  {
+    "english": "active",
+    "arabic": "فعال"
+  },
+  {
+    "english": "activeIndicator",
+    "arabic": "مؤشر نشط"
+  },
+  {
+    "english": "activeSection",
+    "arabic": "قسم نشط"
+  },
+  {
+    "english": "administrative",
+    "arabic": "إداري"
+  },
+  {
+    "english": "advanced",
+    "arabic": "متقدم"
+  },
+  {
+    "english": "age",
+    "arabic": "عمر"
+  },
+  {
+    "english": "akmal",
+    "arabic": "اكمل"
+  },
+  {
+    "english": "akmallramy@gmail",
+    "arabic": "akmallramy@gmail"
+  },
+  {
+    "english": "akmalramy",
+    "arabic": "اكمل رامي"
+  },
+  {
+    "english": "alert",
+    "arabic": "تنبيه"
+  },
+  {
+    "english": "align",
+    "arabic": "محاذاة"
+  },
+  {
+    "english": "alt=",
+    "arabic": "بديل"
+  },
+  {
+    "english": "alternate",
+    "arabic": "بديل"
+  },
+  {
+    "english": "always",
+    "arabic": "دائما"
+  },
+  {
+    "english": "an",
+    "arabic": "ن"
+  },
+  {
+    "english": "analysis",
+    "arabic": "تحليل"
+  },
+  {
+    "english": "analytical",
+    "arabic": "تحليلي"
+  },
+  {
+    "english": "analytics",
+    "arabic": "تحليلات"
+  },
+  {
+    "english": "and",
+    "arabic": "و"
+  },
+  {
+    "english": "animate=",
+    "arabic": "[animate=]"
+  },
+  {
+    "english": "app",
+    "arabic": "تطبيق"
+  },
+  {
+    "english": "architectures",
+    "arabic": "هياكل"
+  },
+  {
+    "english": "aria",
+    "arabic": "آريا"
+  },
+  {
+    "english": "as",
+    "arabic": "ك"
+  },
+  {
+    "english": "assets",
+    "arabic": "أصول"
+  },
+  {
+    "english": "automated",
+    "arabic": "آلي"
+  },
+  {
+    "english": "avatar",
+    "arabic": "صورة رمزية"
+  },
+  {
+    "english": "avatarImg",
+    "arabic": "صورة الرمزية"
+  },
+  {
+    "english": "avatarWrapper",
+    "arabic": "غلاف الصورة الرمزية"
+  },
+  {
+    "english": "back",
+    "arabic": "خلف"
+  },
+  {
+    "english": "based",
+    "arabic": "مبني على"
+  },
+  {
+    "english": "binning",
+    "arabic": "فرز"
+  },
+  {
+    "english": "blank",
+    "arabic": "فارغ"
+  },
+  {
+    "english": "block",
+    "arabic": "كتلة"
+  },
+  {
+    "english": "body",
+    "arabic": "جسم"
+  },
+  {
+    "english": "branch",
+    "arabic": "فرع"
+  },
+  {
+    "english": "brand",
+    "arabic": "العلامة التجارية"
+  },
+  {
+    "english": "btnOutline",
+    "arabic": "إطار الزر"
+  },
+  {
+    "english": "btnPrimary",
+    "arabic": "الزر الأساسي"
+  },
+  {
+    "english": "btnSecondary",
+    "arabic": "الزر الثانوي"
+  },
+  {
+    "english": "building",
+    "arabic": "بناء"
+  },
+  {
+    "english": "business",
+    "arabic": "أعمال"
+  },
+  {
+    "english": "button",
+    "arabic": "زر"
+  },
+  {
+    "english": "by",
+    "arabic": "من"
+  },
+  {
+    "english": "capabilities",
+    "arabic": "إمكانيات"
+  },
+  {
+    "english": "cardVariants",
+    "arabic": "طرق بطاقة"
+  },
+  {
+    "english": "category",
+    "arabic": "فئة"
+  },
+  {
+    "english": "charset=",
+    "arabic": "ترميز="
+  },
+  {
+    "english": "chat",
+    "arabic": "دردشة"
+  },
+  {
+    "english": "children",
+    "arabic": "أطفال"
+  },
+  {
+    "english": "class",
+    "arabic": "فئة"
+  },
+  {
+    "english": "className=",
+    "arabic": "اسم الفئة="
+  },
+  {
+    "english": "clean",
+    "arabic": "نظيف"
+  },
+  {
+    "english": "client",
+    "arabic": "عميل"
+  },
+  {
+    "english": "cloud",
+    "arabic": "سحابة"
+  },
+  {
+    "english": "collaborations",
+    "arabic": "تعاونات"
+  },
+  {
+    "english": "com",
+    "arabic": "كوم"
+  },
+  {
+    "english": "commerce",
+    "arabic": "تجارة"
+  },
+  {
+    "english": "company",
+    "arabic": "شركة"
+  },
+  {
+    "english": "components",
+    "arabic": "مكونات"
+  },
+  {
+    "english": "comprehensive",
+    "arabic": "شامل"
+  },
+  {
+    "english": "console",
+    "arabic": "لوحة تحكم"
+  },
+  {
+    "english": "const",
+    "arabic": "ثابت"
+  },
+  {
+    "english": "constraints",
+    "arabic": "قيود"
+  },
+  {
+    "english": "contact",
+    "arabic": "اتصال"
+  },
+  {
+    "english": "contactInfo",
+    "arabic": "معلومات الاتصال"
+  },
+  {
+    "english": "container",
+    "arabic": "حاوية"
+  },
+  {
+    "english": "containerVariants",
+    "arabic": "طرق حاوية"
+  },
+  {
+    "english": "content=",
+    "arabic": "محتوى="
+  },
+  {
+    "english": "core",
+    "arabic": "نواة"
+  },
+  {
+    "english": "correlation",
+    "arabic": "ارتباط"
+  },
+  {
+    "english": "course",
+    "arabic": "دورة"
+  },
+  {
+    "english": "coursework",
+    "arabic": "الدراسة"
+  },
+  {
+    "english": "creating",
+    "arabic": "إنشاء"
+  },
+  {
+    "english": "css",
+    "arabic": "سي اس اس"
+  },
+  {
+    "english": "currency",
+    "arabic": "عملة"
+  },
+  {
+    "english": "currentYear",
+    "arabic": "السنة الحالية"
+  },
+  {
+    "english": "customer",
+    "arabic": "العميل"
+  },
+  {
+    "english": "d=",
+    "arabic": "د= "
+  },
+  {
+    "english": "dark",
+    "arabic": "مظلم"
+  },
+  {
+    "english": "darkMode",
+    "arabic": "الوضع المظلم"
+  },
+  {
+    "english": "dashboard",
+    "arabic": "��وحة التحكم"
+  },
+  {
+    "english": "dashboards",
+    "arabic": "لوحات التحكم"
+  },
+  {
+    "english": "data",
+    "arabic": "بيانات"
+  },
+  {
+    "english": "database",
+    "arabic": "قاعدة البيانات"
+  },
+  {
+    "english": "dataset",
+    "arabic": "مجموعة البيانات"
+  },
+  {
+    "english": "datasets",
+    "arabic": "مجموعات البيانات"
+  },
+  {
+    "english": "decision",
+    "arabic": "قرار"
+  },
+  {
+    "english": "decisions",
+    "arabic": "قرارات"
+  },
+  {
+    "english": "delay",
+    "arabic": "تأخير"
+  },
+  {
+    "english": "delay=",
+    "arabic": "تأخير= "
+  },
+  {
+    "english": "delayChildren",
+    "arabic": "تأخير الأطفال"
+  },
+  {
+    "english": "delivering",
+    "arabic": "التسليم"
+  },
+  {
+    "english": "demo",
+    "arabic": "تجربة"
+  },
+  {
+    "english": "demographic",
+    "arabic": "ديموغرافي"
+  },
+  {
+    "english": "description",
+    "arabic": "الوصف"
+  },
+  {
+    "english": "designing",
+    "arabic": "التصميم"
+  },
+  {
+    "english": "determinants",
+    "arabic": "المحددات"
+  },
+  {
+    "english": "discussing",
+    "arabic": "مناقشة"
+  },
+  {
+    "english": "display",
+    "arabic": "عرض"
+  },
+  {
+    "english": "distribution",
+    "arabic": "التوزيع"
+  },
+  {
+    "english": "div",
+    "arabic": "قسم"
+  },
+  {
+    "english": "div>",
+    "arabic": "قسم>"
+  },
+  {
+    "english": "docs",
+    "arabic": "وثائق"
+  },
+  {
+    "english": "document",
+    "arabic": "وثيقة"
+  },
+  {
+    "english": "documentElement",
+    "arabic": "عنصر الوثيقة"
+  },
+  {
+    "english": "dom",
+    "arabic": "النطاق"
+  },
+  {
+    "english": "down",
+    "arabic": "لأسفل"
+  },
+  {
+    "english": "download",
+    "arabic": "تنزيل"
+  },
+  {
+    "english": "drill",
+    "arabic": "مثقاب"
+  },
+  {
+    "english": "driven",
+    "arabic": "مدفوع"
+  },
+  {
+    "english": "drivers",
+    "arabic": "السائقون"
+  },
+  {
+    "english": "duration",
+    "arabic": "المدة"
+  },
+  {
+    "english": "e",
+    "arabic": "ه"
+  },
+  {
+    "english": "ease",
+    "arabic": "سهولة"
+  },
+  {
+    "english": "education",
+    "arabic": "التربية"
+  },
+  {
+    "english": "element",
+    "arabic": "عنصر"
+  },
+  {
+    "english": "elevated",
+    "arabic": "مرتفع"
+  },
+  {
+    "english": "else",
+    "arabic": "أخرى"
+  },
+  {
+    "english": "email",
+    "arabic": "البريد الإلكتروني"
+  },
+  {
+    "english": "enabling",
+    "arabic": "تمكين"
+  },
+  {
+    "english": "end",
+    "arabic": "نهاية"
+  },
+  {
+    "english": "engagement",
+    "arabic": "الالتزام"
+  },
+  {
+    "english": "engineering",
+    "arabic": "الهندسة"
+  },
+  {
+    "english": "entities",
+    "arabic": "الكيانات"
+  },
+  {
+    "english": "exceeding",
+    "arabic": "تجاوز"
+  },
+  {
+    "english": "exp",
+    "arabic": "خبرة"
+  },
+  {
+    "english": "expansion",
+    "arabic": "توسيع"
+  },
+  {
+    "english": "expense",
+    "arabic": "مصروف"
+  },
+  {
+    "english": "expenses",
+    "arabic": "مصروفات"
+  },
+  {
+    "english": "experience",
+    "arabic": "خبرة"
+  },
+  {
+    "english": "experiences",
+    "arabic": "خبرات"
+  },
+  {
+    "english": "exploratory",
+    "arabic": "استكشافي"
+  },
+  {
+    "english": "false",
+    "arabic": "خاطئ"
+  },
+  {
+    "english": "featuring",
+    "arabic": "يعرض"
+  },
+  {
+    "english": "fill=",
+    "arabic": "[fill=]"
+  },
+  {
+    "english": "finance",
+    "arabic": "تمويل"
+  },
+  {
+    "english": "financial",
+    "arabic": "مالي"
+  },
+  {
+    "english": "floatingElements",
+    "arabic": "عناصر طافية"
+  },
+  {
+    "english": "floatingItem",
+    "arabic": "عنصر طاف"
+  },
+  {
+    "english": "focusing",
+    "arabic": "التركيز"
+  },
+  {
+    "english": "for",
+    "arabic": "من أجل"
+  },
+  {
+    "english": "formData",
+    "arabic": "بيانات النموذج"
+  },
+  {
+    "english": "framer",
+    "arabic": "إطار"
+  },
+  {
+    "english": "gender",
+    "arabic": "جنس"
+  },
+  {
+    "english": "generate",
+    "arabic": "توليد"
+  },
+  {
+    "english": "get",
+    "arabic": "الحصول"
+  },
+  {
+    "english": "getElementById",
+    "arabic": "الحصول على عنصر حسب المعرف"
+  },
+  {
+    "english": "getFullYear",
+    "arabic": "الحصول على سنة完整"
+  },
+  {
+    "english": "getItem",
+    "arabic": "الحصول على عنصر"
+  },
+  {
+    "english": "github",
+    "arabic": "جيت هاب"
+  },
+  {
+    "english": "glass",
+    "arabic": "زجاج"
+  },
+  {
+    "english": "global",
+    "arabic": "عالمي"
+  },
+  {
+    "english": "gradient",
+    "arabic": "تدرج"
+  },
+  {
+    "english": "grid",
+    "arabic": "شبكة"
+  },
+  {
+    "english": "growth",
+    "arabic": "نمو"
+  },
+  {
+    "english": "h1>",
+    "arabic": "[h1>]"
+  },
+  {
+    "english": "h2",
+    "arabic": "h2"
+  },
+  {
+    "english": "h2>",
+    "arabic": "[h2>]"
+  },
+  {
+    "english": "h3>",
+    "arabic": "[h3>]"
+  },
+  {
+    "english": "handleChange",
+    "arabic": "معالجة التغيير"
+  },
+  {
+    "english": "handleScroll",
+    "arabic": "معالجة التمرير"
+  },
+  {
+    "english": "handleSubmit",
+    "arabic": "معالجة الإرسال"
+  },
+  {
+    "english": "having",
+    "arabic": "الامتلاك"
+  },
+  {
+    "english": "hidden",
+    "arabic": "مخفي"
+  },
+  {
+    "english": "highlights",
+    "arabic": "المناطق المضاءة"
+  },
+  {
+    "english": "highlightsGrid",
+    "arabic": "شبكة الإضاءة"
+  },
+  {
+    "english": "hiring",
+    "arabic": "توظيف"
+  },
+  {
+    "english": "home",
+    "arabic": "المنزل"
+  },
+  {
+    "english": "href",
+    "arabic": "المرجع"
+  },
+  {
+    "english": "href=",
+    "arabic": "المرجع ="
+  },
+  {
+    "english": "https",
+    "arabic": "HTTPS"
+  },
+  {
+    "english": "icon",
+    "arabic": "الأيقونة"
+  },
+  {
+    "english": "id",
+    "arabic": "المعرف"
+  },
+  {
+    "english": "id=",
+    "arabic": "المعرف ="
+  },
+  {
+    "english": "identified",
+    "arabic": "تم تحديده"
+  },
+  {
+    "english": "identify",
+    "arabic": "تحديد"
+  },
+  {
+    "english": "idx",
+    "arabic": "المؤشر"
+  },
+  {
+    "english": "if",
+    "arabic": "إذا"
+  },
+  {
+    "english": "images",
+    "arabic": "الصور"
+  },
+  {
+    "english": "impact",
+    "arabic": "التأثير"
+  },
+  {
+    "english": "impacting",
+    "arabic": "يؤثر"
+  },
+  {
+    "english": "implemented",
+    "arabic": "تم تنفيذه"
+  },
+  {
+    "english": "in",
+    "arabic": "في"
+  },
+  {
+    "english": "inclusion",
+    "arabic": "الاندماج"
+  },
+  {
+    "english": "index",
+    "arabic": "فهرس"
+  },
+  {
+    "english": "indexing",
+    "arabic": "فهرسة"
+  },
+  {
+    "english": "indicators",
+    "arabic": "المؤشرات"
+  },
+  {
+    "english": "infoCard",
+    "arabic": "بطاقة المعلومات"
+  },
+  {
+    "english": "initial",
+    "arabic": "أولية"
+  },
+  {
+    "english": "initial=",
+    "arabic": "أولية ="
+  },
+  {
+    "english": "initiatives",
+    "arabic": "المبادرات"
+  },
+  {
+    "english": "input",
+    "arabic": "المدخلات"
+  },
+  {
+    "english": "insights",
+    "arabic": "آراء"
+  },
+  {
+    "english": "interactive",
+    "arabic": "التفاعلي"
+  },
+  {
+    "english": "is",
+    "arabic": "هو"
+  },
+  {
+    "english": "isDark",
+    "arabic": "مظلم"
+  },
+  {
+    "english": "isOpen",
+    "arabic": "مفتوح"
+  },
+  {
+    "english": "issues",
+    "arabic": "قضايا"
+  },
+  {
+    "english": "item",
+    "arabic": "عنصر"
+  },
+  {
+    "english": "itemVariants",
+    "arabic": "مرادفات العنصر"
+  },
+  {
+    "english": "jpg",
+    "arabic": "جيه بيه جي"
+  },
+  {
+    "english": "jsx",
+    "arabic": "جيه اس إكس"
+  },
+  {
+    "english": "just",
+    "arabic": "فقط"
+  },
+  {
+    "english": "key",
+    "arabic": "مفتاح"
+  },
+  {
+    "english": "key=",
+    "arabic": "مفتاح ="
+  },
+  {
+    "english": "label",
+    "arabic": "تسمية"
+  },
+  {
+    "english": "label=",
+    "arabic": "تسمية ="
+  },
+  {
+    "english": "lang=",
+    "arabic": "لغة ="
+  },
+  {
+    "english": "large",
+    "arabic": "كبير"
+  },
+  {
+    "english": "left",
+    "arabic": "أيسر"
+  },
+  {
+    "english": "let",
+    "arabic": "دع"
+  },
+  {
+    "english": "light",
+    "arabic": "ضوء"
+  },
+  {
+    "english": "link",
+    "arabic": "رابط"
+  },
+  {
+    "english": "linkedin",
+    "arabic": "لينكدإن"
+  },
+  {
+    "english": "linking",
+    "arabic": "ربط"
+  },
+  {
+    "english": "localStorage",
+    "arabic": "تخزين الموقع المحلي"
+  },
+  {
+    "english": "location",
+    "arabic": "موقع"
+  },
+  {
+    "english": "log",
+    "arabic": "سجل"
+  },
+  {
+    "english": "logistics",
+    "arabic": "لوجستيات"
+  },
+  {
+    "english": "long",
+    "arabic": "طويل"
+  },
+  {
+    "english": "lucide",
+    "arabic": "واضح"
+  },
+  {
+    "english": "m",
+    "arabic": "م"
+  },
+  {
+    "english": "mailto",
+    "arabic": "بريد إلكتروني"
+  },
+  {
+    "english": "making",
+    "arabic": "صنع"
+  },
+  {
+    "english": "management",
+    "arabic": "إدارة"
+  },
+  {
+    "english": "map",
+    "arabic": "خريطة"
+  },
+  {
+    "english": "margin",
+    "arabic": "هامش"
+  },
+  {
+    "english": "market",
+    "arabic": "سوق"
+  },
+  {
+    "english": "measures",
+    "arabic": "قياسات"
+  },
+  {
+    "english": "menu",
+    "arabic": "قائمة"
+  },
+  {
+    "english": "menuButton",
+    "arabic": "زر القائمة"
+  },
+  {
+    "english": "message",
+    "arabic": "رسالة"
+  },
+  {
+    "english": "mobile",
+    "arabic": "جوال"
+  },
+  {
+    "english": "mobileNavLink",
+    "arabic": "رابط قائمة الجوال"
+  },
+  {
+    "english": "mode",
+    "arabic": "وضع"
+  },
+  {
+    "english": "model",
+    "arabic": "نموذج"
+  },
+  {
+    "english": "module",
+    "arabic": "وحدة"
+  },
+  {
+    "english": "monitor",
+    "arabic": "شاشة"
+  },
+  {
+    "english": "motion",
+    "arabic": "حركة"
+  },
+  {
+    "english": "multi",
+    "arabic": "متعدد"
+  },
+  {
+    "english": "multiple",
+    "arabic": "متعدد"
+  },
+  {
+    "english": "name",
+    "arabic": "اسم"
+  },
+  {
+    "english": "name=",
+    "arabic": "اسم="
+  },
+  {
+    "english": "nav",
+    "arabic": "تنقل"
+  },
+  {
+    "english": "navItems",
+    "arabic": "عناصر التنقل"
+  },
+  {
+    "english": "navLink",
+    "arabic": "رابط التنقل"
+  },
+  {
+    "english": "nbe",
+    "arabic": "عدد"
+  },
+  {
+    "english": "new",
+    "arabic": "جديد"
+  },
+  {
+    "english": "newMode",
+    "arabic": "وضع جديد"
+  },
+  {
+    "english": "noopener",
+    "arabic": "لا يفتح"
+  },
+  {
+    "english": "noreferrer",
+    "arabic": "لا يُرجع"
+  },
+  {
+    "english": "normalized",
+    "arabic": "مُNormalize"
+  },
+  {
+    "english": "of",
+    "arabic": "من"
+  },
+  {
+    "english": "offsetHeight",
+    "arabic": "إزاحة الارتفاع"
+  },
+  {
+    "english": "offsetTop",
+    "arabic": "إزاحة أعلى"
+  },
+  {
+    "english": "on",
+    "arabic": "مفتوح"
+  },
+  {
+    "english": "once",
+    "arabic": "مرة واحدة"
+  },
+  {
+    "english": "opacity",
+    "arabic": "الشفافية"
+  },
+  {
+    "english": "open",
+    "arabic": "مفتوح"
+  },
+  {
+    "english": "operational",
+    "arabic": "تشغيلي"
+  },
+  {
+    "english": "opportunities",
+    "arabic": "فرص"
+  },
+  {
+    "english": "optimization",
+    "arabic": "تحسين"
+  },
+  {
+    "english": "optimize",
+    "arabic": "تحسين"
+  },
+  {
+    "english": "or",
+    "arabic": "أو"
+  },
+  {
+    "english": "overflow",
+    "arabic": "فاض"
+  },
+  {
+    "english": "p",
+    "arabic": "ب"
+  },
+  {
+    "english": "p>",
+    "arabic": "ب>"
+  },
+  {
+    "english": "passenger",
+    "arabic": "مسافر"
+  },
+  {
+    "english": "passionate",
+    "arabic": "شغوف"
+  },
+  {
+    "english": "pdf",
+    "arabic": "بي دي إف"
+  },
+  {
+    "english": "peaks",
+    "arabic": "قمم"
+  },
+  {
+    "english": "performance",
+    "arabic": "الأداء"
+  },
+  {
+    "english": "period",
+    "arabic": "فترة"
+  },
+  {
+    "english": "pfp",
+    "arabic": "صورة الملف الشخصي"
+  },
+  {
+    "english": "pipelines",
+    "arabic": "أنابيب"
+  },
+  {
+    "english": "png",
+    "arabic": "بي إن جي"
+  },
+  {
+    "english": "policies",
+    "arabic": "سياسات"
+  },
+  {
+    "english": "positioning",
+    "arabic": "موضع"
+  },
+  {
+    "english": "powered",
+    "arabic": "مدعوم"
+  },
+  {
+    "english": "predictors",
+    "arabic": "منظمات"
+  },
+  {
+    "english": "preserveAspectRatio=",
+    "arabic": "حفظ نسبة الجانب"
+  },
+  {
+    "english": "preventDefault",
+    "arabic": "منع الإعدادات الافتراضية"
+  },
+  {
+    "english": "price",
+    "arabic": "السعر"
+  },
+  {
+    "english": "primary",
+    "arabic": "رئيسي"
+  },
+  {
+    "english": "procedure",
+    "arabic": "إجراء"
+  },
+  {
+    "english": "processes",
+    "arabic": "Operations"
+  },
+  {
+    "english": "processing",
+    "arabic": "المعالجة"
+  },
+  {
+    "english": "project",
+    "arabic": "مشروع"
+  },
+  {
+    "english": "projects",
+    "arabic": "مشاريع"
+  },
+  {
+    "english": "proper",
+    "arabic": "مناسب"
+  },
+  {
+    "english": "pyhton",
+    "arabic": "[pyhton]"
+  },
+  {
+    "english": "queries",
+    "arabic": "استفسارات"
+  },
+  {
+    "english": "ramy",
+    "arabic": "رامي"
+  },
+  {
+    "english": "react",
+    "arabic": "ت phản應"
+  },
+  {
+    "english": "real",
+    "arabic": "حقيقي"
+  },
+  {
+    "english": "recommendations",
+    "arabic": "توصيات"
+  },
+  {
+    "english": "recruitment",
+    "arabic": "توظيف"
+  },
+  {
+    "english": "refresh",
+    "arabic": "تحديث"
+  },
+  {
+    "english": "regional",
+    "arabic": "إقليمي"
+  },
+  {
+    "english": "rel=",
+    "arabic": "علاقة ="
+  },
+  {
+    "english": "relational",
+    "arabic": "علاقة"
+  },
+  {
+    "english": "relationships",
+    "arabic": "علاقات"
+  },
+  {
+    "english": "removeEventListener",
+    "arabic": "إزالة مستمع الحدث"
+  },
+  {
+    "english": "removed",
+    "arabic": "تم إزالته"
+  },
+  {
+    "english": "repeat",
+    "arabic": "إعادة"
+  },
+  {
+    "english": "reporting",
+    "arabic": "التقرير"
+  },
+  {
+    "english": "reports",
+    "arabic": "التقارير"
+  },
+  {
+    "english": "research",
+    "arabic": "بحث"
+  },
+  {
+    "english": "reserved",
+    "arabic": "محجوز"
+  },
+  {
+    "english": "resp",
+    "arabic": "استجابة"
+  },
+  {
+    "english": "responsibilities",
+    "arabic": "مسؤوليات"
+  },
+  {
+    "english": "retention",
+    "arabic": "الاحتفاظ"
+  },
+  {
+    "english": "return",
+    "arabic": "إعادة"
+  },
+  {
+    "english": "revenue",
+    "arabic": "إيرادات"
+  },
+  {
+    "english": "right",
+    "arabic": "يمين"
+  },
+  {
+    "english": "rights",
+    "arabic": "حقوق"
+  },
+  {
+    "english": "ring",
+    "arabic": "خاتم"
+  },
+  {
+    "english": "ringOuter",
+    "arabic": "خاتم خارجي"
+  },
+  {
+    "english": "root",
+    "arabic": "جذر"
+  },
+  {
+    "english": "rotate",
+    "arabic": "يدور"
+  },
+  {
+    "english": "row",
+    "arabic": "صف"
+  },
+  {
+    "english": "satisfaction",
+    "arabic": "رضا"
+  },
+  {
+    "english": "scalable",
+    "arabic": "قابل للتوسيع"
+  },
+  {
+    "english": "scale",
+    "arabic": "مقياس"
+  },
+  {
+    "english": "scale=1",
+    "arabic": "مقياس = 1"
+  },
+  {
+    "english": "schema",
+    "arabic": "مخطط"
+  },
+  {
+    "english": "scroll",
+    "arabic": "التحرك"
+  },
+  {
+    "english": "scrollPosition",
+    "arabic": "موضع التحرك"
+  },
+  {
+    "english": "scrollY",
+    "arabic": "التحرك Y"
+  },
+  {
+    "english": "scrolled",
+    "arabic": "تم التحرك"
+  },
+  {
+    "english": "section",
+    "arabic": "قسم"
+  },
+  {
+    "english": "sections",
+    "arabic": "أقسام"
+  },
+  {
+    "english": "secure",
+    "arabic": "آمن"
+  },
+  {
+    "english": "segmentation",
+    "arabic": "تقسيم"
+  },
+  {
+    "english": "segmented",
+    "arabic": "منقسم"
+  },
+  {
+    "english": "separator",
+    "arabic": "فاصل"
+  },
+  {
+    "english": "series",
+    "arabic": "سلسلة"
+  },
+  {
+    "english": "setActiveSection",
+    "arabic": "تعيين قسم نشط"
+  },
+  {
+    "english": "setAttribute",
+    "arabic": "تعيين سمة"
+  },
+  {
+    "english": "setDarkMode",
+    "arabic": "تعيين الوضع المظلم"
+  },
+  {
+    "english": "setFormData",
+    "arabic": "تعيين بيانات الاستمارة"
+  },
+  {
+    "english": "setIsOpen",
+    "arabic": "تعيين مفتوح"
+  },
+  {
+    "english": "setItem",
+    "arabic": "تعيين عنصر"
+  },
+  {
+    "english": "setScrolled",
+    "arabic": "تعيين تم التحرك"
+  },
+  {
+    "english": "sidebar",
+    "arabic": "شريط جانبي"
+  },
+  {
+    "english": "size=",
+    "arabic": "حجم="
+  },
+  {
+    "english": "skill",
+    "arabic": "مهارة"
+  },
+  {
+    "english": "skillCategories",
+    "arabic": "فئات المهارات"
+  },
+  {
+    "english": "skillIndex",
+    "arabic": "فهرس المهارة"
+  },
+  {
+    "english": "skills",
+    "arabic": "المهارات"
+  },
+  {
+    "english": "social",
+    "arabic": "اجتماعي"
+  },
+  {
+    "english": "socialLinks",
+    "arabic": "روابط اجتماعية"
+  },
+  {
+    "english": "solution",
+    "arabic": "حل"
+  },
+  {
+    "english": "soon",
+    "arabic": "قريبا"
+  },
+  {
+    "english": "sp",
+    "arabic": "sp"
+  },
+  {
+    "english": "span>",
+    "arabic": "نطاق>"
+  },
+  {
+    "english": "specialize",
+    "arabic": "تخصص"
+  },
+  {
+    "english": "specializing",
+    "arabic": "تخصصي"
+  },
+  {
+    "english": "spring",
+    "arabic": "ربيع"
+  },
+  {
+    "english": "src=",
+    "arabic": "مصدر="
+  },
+  {
+    "english": "staggerChildren",
+    "arabic": "أطفال متعثر"
+  },
+  {
+    "english": "stakeholders",
+    "arabic": "أصحاب المصلحة"
+  },
+  {
+    "english": "star",
+    "arabic": "نجم"
+  },
+  {
+    "english": "statistical",
+    "arabic": "إحصائي"
+  },
+  {
+    "english": "stored",
+    "arabic": "مخزن"
+  },
+  {
+    "english": "strengthen",
+    "arabic": "تعزيز"
+  },
+  {
+    "english": "student",
+    "arabic": "طالب"
+  },
+  {
+    "english": "style",
+    "arabic": "نمط"
+  },
+  {
+    "english": "style=",
+    "arabic": "نمط="
+  },
+  {
+    "english": "styles",
+    "arabic": "أنماط"
+  },
+  {
+    "english": "submit",
+    "arabic": "إرسال"
+  },
+  {
+    "english": "submitted",
+    "arabic": "تم إرساله"
+  },
+  {
+    "english": "substring",
+    "arabic": "فرعية"
+  },
+  {
+    "english": "subtitle",
+    "arabic": "عنوان فرعي"
+  },
+  {
+    "english": "support",
+    "arabic": "دعم"
+  },
+  {
+    "english": "supporting",
+    "arabic": "داعم"
+  },
+  {
+    "english": "survival",
+    "arabic": "بقاء"
+  },
+  {
+    "english": "systems",
+    "arabic": "نظم"
+  },
+  {
+    "english": "target",
+    "arabic": "هدف"
+  },
+  {
+    "english": "tech",
+    "arabic": "تكنولوجيا"
+  },
+  {
+    "english": "techIndex",
+    "arabic": "فهارس التكنولوجيا"
+  },
+  {
+    "english": "tel",
+    "arabic": "هاتف"
+  },
+  {
+    "english": "term",
+    "arabic": "مصطلح"
+  },
+  {
+    "english": "text",
+    "arabic": "نص"
+  },
+  {
+    "english": "textarea",
+    "arabic": "مساحة النص"
+  },
+  {
+    "english": "that",
+    "arabic": "ذلك"
+  },
+  {
+    "english": "the",
+    "arabic": "ال"
+  },
+  {
+    "english": "theme",
+    "arabic": "موضوع"
+  },
+  {
+    "english": "through",
+    "arabic": "من خلال"
+  },
+  {
+    "english": "ticket",
+    "arabic": "تذكرة"
+  },
+  {
+    "english": "time",
+    "arabic": "زمن"
+  },
+  {
+    "english": "timelineItem",
+    "arabic": "عنصر الجدول الزمني"
+  },
+  {
+    "english": "titanic",
+    "arabic": "تايتانيك"
+  },
+  {
+    "english": "title",
+    "arabic": "عنوان"
+  },
+  {
+    "english": "titleVariants",
+    "arabic": "متغيرات العنوان"
+  },
+  {
+    "english": "to",
+    "arabic": "إلى"
+  },
+  {
+    "english": "toString",
+    "arabic": " إلى السلسلة"
+  },
+  {
+    "english": "toggleDarkMode",
+    "arabic": "تبديل الوضع الداكن"
+  },
+  {
+    "english": "track",
+    "arabic": "تتبع"
+  },
+  {
+    "english": "tracking",
+    "arabic": "تتبع"
+  },
+  {
+    "english": "transformation",
+    "arabic": "تحويل"
+  },
+  {
+    "english": "transition",
+    "arabic": "انتقال"
+  },
+  {
+    "english": "transition=",
+    "arabic": "انتقال ="
+  },
+  {
+    "english": "trends",
+    "arabic": "اتجاهات"
+  },
+  {
+    "english": "true",
+    "arabic": "صحيح"
+  },
+  {
+    "english": "tween",
+    "arabic": "مرحلة انتقالية"
+  },
+  {
+    "english": "type=",
+    "arabic": "نوع ="
+  },
+  {
+    "english": "units",
+    "arabic": "وحدات"
+  },
+  {
+    "english": "useEffect",
+    "arabic": "استخدم التأثير"
+  },
+  {
+    "english": "useState",
+    "arabic": "استخدم الحالة"
+  },
+  {
+    "english": "using",
+    "arabic": "باستخدام"
+  },
+  {
+    "english": "validate",
+    "arabic": "تحقق"
+  },
+  {
+    "english": "value",
+    "arabic": "قيمة"
+  },
+  {
+    "english": "variant",
+    "arabic": "متغير"
+  },
+  {
+    "english": "variant=",
+    "arabic": "متغير ="
+  },
+  {
+    "english": "variants=",
+    "arabic": "متغيرات ="
+  },
+  {
+    "english": "viewBox=",
+    "arabic": "صندوق العرض ="
+  },
+  {
+    "english": "viewport=",
+    "arabic": "نافذة العرض ="
+  },
+  {
+    "english": "visible",
+    "arabic": "مرئي"
+  },
+  {
+    "english": "visibleProjects",
+    "arabic": "المشاريع المرئية"
+  },
+  {
+    "english": "visual",
+    "arabic": "مرئي"
+  },
+  {
+    "english": "visualization",
+    "arabic": "تجسيد"
+  },
+  {
+    "english": "visualizations",
+    "arabic": "تجسيدات"
+  },
+  {
+    "english": "warehouses",
+    "arabic": "مستودعات"
+  },
+  {
+    "english": "when",
+    "arabic": "متى"
+  },
+  {
+    "english": "while",
+    "arabic": "المدة"
+  },
+  {
+    "english": "whileHover=",
+    "arabic": "المدة عند التوجه ="
+  },
+  {
+    "english": "whileInView=",
+    "arabic": "المدة عند العرض ="
+  },
+  {
+    "english": "whileTap=",
+    "arabic": "المدة عند النقر ="
+  },
+  {
+    "english": "will",
+    "arabic": "سوف"
+  },
+  {
+    "english": "window",
+    "arabic": "نافذة"
+  },
+  {
+    "english": "with",
+    "arabic": "مع"
+  },
+  {
+    "english": "withSeparator",
+    "arabic": "مع فاصل"
+  },
+  {
+    "english": "withSeparator>",
+    "arabic": "مع فاصل >"
+  },
+  {
+    "english": "workflows",
+    "arabic": "سير عمل"
+  },
+  {
+    "english": "workforce",
+    "arabic": "قوة العمل"
+  },
+  {
+    "english": "www",
+    "arabic": "دبليو دبليو دبليو"
+  },
+  {
+    "english": "x",
+    "arabic": "إكس"
+  },
+  {
+    "english": "y",
+    "arabic": "واي"
+  },
+  {
+    "english": "you",
+    "arabic": "أنت"
+  },
+  {
+    "english": "your",
+    "arabic": "لك"
+  },
+  {
+    "english": "yourname@example",
+    "arabic": "اسمك@مثال"
+  },
+  {
+    "english": "youth",
+    "arabic": "شباب"
+  },
+  {
+    "english": "|",
+    "arabic": "خط竪"
+  },
+  {
+    "english": "▸",
+    "arabic": "سهم إلى اليمين"
+  },
+  {
+    "english": "☁️",
+    "arabic": "سحابة"
+  },
+  {
+    "english": "📊",
+    "arabic": "طاولة بيانات"
+  },
+  {
+    "english": "🗄️",
+    "arabic": "سجل"
+  }
+]

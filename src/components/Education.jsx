@@ -1,17 +1,20 @@
 import { motion } from 'framer-motion'
 import { GraduationCap, Calendar, BookOpen } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import SectionWrapper from './SectionWrapper'
 import AnimatedCard from './AnimatedCard'
 import styles from './Education.module.css'
 
 const Education = () => {
+  const { t } = useTranslation()
+
   const coursework = [
-    'Database Management Systems',
-    'Data Analytics',
-    'Business Intelligence',
-    'Cloud Computing',
-    'Information Systems',
-    'Data Structures'
+    t('Database Management Systems'),
+    t('Data Analytics'),
+    t('Business Intelligence'),
+    t('Cloud Computing'),
+    t('Information Systems'),
+    t('Data Structures')
   ]
 
   const titleVariants = {
@@ -30,7 +33,7 @@ const Education = () => {
           className={styles.title}
           variants={titleVariants}
         >
-          <span className={styles.gradient}>Education</span>
+          <span className={styles.gradient}>{t('Education')}</span>
         </motion.h2>
         
         <AnimatedCard variant="glass">
@@ -42,22 +45,22 @@ const Education = () => {
             </div>
             
             <div className={styles.content}>
-              <h3>Bachelor of Business Information Systems</h3>
+              <h3>{t('Bachelor of Business Information Systems')}</h3>
               <p className={styles.university}>
-                Galala University powered by Arizona State University
+                {t('Galala University powered by Arizona State University')}
               </p>
               
               <div className={styles.meta}>
                 <span className={styles.metaItem}>
                   <Calendar size={16} />
-                  Expected Graduation: July 2027
+                  {t('Expected Graduation: July 2027')}
                 </span>
               </div>
               
               <div className={styles.coursework}>
                 <div className={styles.courseworkHeader}>
                   <BookOpen size={20} />
-                  <h4>Relevant Coursework</h4>
+                  <h4>{t('Relevant Coursework')}</h4>
                 </div>
                 <div className={styles.courseworkGrid}>
                   {coursework.map((course, index) => (

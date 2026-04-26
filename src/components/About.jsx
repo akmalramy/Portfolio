@@ -1,25 +1,28 @@
 import { motion } from 'framer-motion'
 import { Database, Cloud, BarChart } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import SectionWrapper from './SectionWrapper'
 import AnimatedCard from './AnimatedCard'
 import styles from './About.module.css'
 
 const About = () => {
+  const { t } = useTranslation()
+
   const highlights = [
     {
       icon: <Cloud size={32} />,
-      title: 'Cloud Architecture',
-      description: 'Designing scalable cloud data systems on Azure'
+      title: t('Cloud Architecture'),
+      description: t('Designing scalable cloud data systems on Azure')
     },
     {
       icon: <Database size={32} />,
-      title: 'ETL Pipelines',
-      description: 'Building automated data pipelines and workflows'
+      title: t('ETL Pipelines'),
+      description: t('Building automated data pipelines and workflows')
     },
     {
       icon: <BarChart size={32} />,
-      title: 'Analytics Dashboards',
-      description: 'Creating insights with Power BI and Tableau'
+      title: t('Analytics Dashboards'),
+      description: t('Creating insights with Power BI and Tableau')
     }
   ]
 
@@ -39,7 +42,7 @@ const About = () => {
           className={styles.title}
           variants={titleVariants}
         >
-          About <span className={styles.gradient}>Me</span>
+          <span className={styles.gradient}>{t('About Me')}</span>
         </motion.h2>
         
         <motion.p 
@@ -49,9 +52,7 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          I'm a Business Information Systems student passionate about designing scalable 
-          cloud data systems, building automated ETL pipelines, and creating analytics 
-          dashboards that support data-driven decision making.
+          {t("I'm a Business Information Systems student passionate about designing scalable cloud data systems, building automated ETL pipelines, and creating analytics dashboards that support data-driven decision making.")}
         </motion.p>
 
         <div className={styles.highlightsGrid}>

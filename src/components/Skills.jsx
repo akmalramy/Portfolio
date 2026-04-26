@@ -1,30 +1,33 @@
 import { motion } from 'framer-motion'
 import { Code, Database, BarChart3, Cloud } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import SectionWrapper from './SectionWrapper'
 import AnimatedCard from './AnimatedCard'
 import styles from './Skills.module.css'
 
 const Skills = () => {
+  const { t } = useTranslation()
+
   const skillCategories = [
     {
       icon: <Code size={28} />,
-      title: 'Programming',
+      title: t('Programming'),
       skills: ['Python', 'SQL', 'HTML', 'CSS']
     },
     {
       icon: <Cloud size={28} />,
-      title: 'Cloud & ETL',
-      skills: ['Azure Data Factory', 'Azure Synapse Analytics', 'Databricks (PySpark)']
+      title: t('Cloud & ETL'),
+      skills: [t('Azure Data Factory'), t('Azure Synapse Analytics'), t('Databricks (PySpark)')]
     },
     {
       icon: <BarChart3 size={28} />,
-      title: 'Analytics & BI',
-      skills: ['Power BI', 'Tableau', 'Excel']
+      title: t('Analytics & BI'),
+      skills: [t('Power BI'), t('Tableau'), t('Excel')]
     },
     {
       icon: <Database size={28} />,
-      title: 'Databases',
-      skills: ['MySQL', 'SQL Server', 'Data Warehousing']
+      title: t('Databases'),
+      skills: [t('MySQL'), t('SQL Server'), t('Data Warehousing')]
     }
   ]
 
@@ -44,7 +47,7 @@ const Skills = () => {
           className={styles.title}
           variants={titleVariants}
         >
-          Skills & <span className={styles.gradient}>Technologies</span>
+          <span className={styles.gradient}>{t('Skills & Technologies')}</span>
         </motion.h2>
         
         <div className={styles.skillsGrid}>

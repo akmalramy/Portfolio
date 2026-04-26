@@ -91,6 +91,8 @@
   font-size: var(--text-base);
   color: var(--color-text);
   font-weight: 500;
+  direction: ltr;
+  unicode-bidi: bidi-override;
 }
 
 .contactItem:hover .contactValue {

@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
 import { Download, Mail, MapPin, ArrowRight } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import styles from './Hero.module.css'
 import avatarImg from '../assets/images/pfp.jpg'
 
 const Hero = () => {
+  const { t } = useTranslation()
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -38,25 +41,24 @@ const Hero = () => {
         >
           <motion.div className={styles.badge} variants={itemVariants}>
             <span className={styles.badgeDot} />
-            Available for opportunities
+            {t('Available for opportunities')}
           </motion.div>
           
           <motion.h1 variants={itemVariants}>
-            Hi, I'm <span className={styles.gradient}>Akmal Ramy</span>
+            {t("Hi, I'm Akmal Ramy")}
           </motion.h1>
           
           <motion.h2 className={styles.subtitle} variants={itemVariants}>
-            Junior Data Engineer
+            {t('Junior Data Engineer')}
           </motion.h2>
           
           <motion.div className={styles.location} variants={itemVariants}>
             <MapPin size={18} />
-            <span>Cairo, Egypt</span>
+            <span>{t('Cairo, Egypt')}</span>
           </motion.div>
           
           <motion.p className={styles.description} variants={itemVariants}>
-            I specialize in building scalable cloud data architectures, 
-            ETL pipelines, and analytics dashboards using Azure, Python, SQL, and Power BI.
+            {t('I specialize in building scalable cloud data architectures, ETL pipelines, and analytics dashboards using Azure, Python, SQL, and Power BI.')}
           </motion.p>
           
           <motion.div className={styles.actions} variants={itemVariants}>
@@ -66,7 +68,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              View Projects
+              {t('View Projects')}
               <ArrowRight size={20} />
             </motion.a>
             
@@ -77,7 +79,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Mail size={20} />
-              Contact Me
+              {t('Contact Me')}
             </motion.a>
             
             <motion.a 
@@ -88,7 +90,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Download size={20} />
-              Download CV
+              {t('Download CV')}
             </motion.a>
           </motion.div>
         </motion.div>

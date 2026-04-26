@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Moon, Sun } from 'lucide-react'
+import { Menu, X, Moon, Sun, Globe } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import styles from './FloatingNavbar.module.css'
 
 const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
+  const { language, toggleLanguage, t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
@@ -80,7 +82,7 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              {item.name}
+              {t(item.name)}
               {activeSection === item.href.substring(1) && (
                 <motion.div 
                   className={styles.activeIndicator}
@@ -90,6 +92,18 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
               )}
             </motion.a>
           ))}
+          
+          <motion.button
+            onClick={toggleLanguage}
+            className={styles.languageToggle}
+            whileHover={{ scale: 1.1, rotate: 180 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Toggle language"
+            title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
+          >
+            <Globe size={20} />
+            <span className={styles.languageLabel}>{language.toUpperCase()}</span>
+          </motion.button>
           
           <motion.button
             onClick={toggleDarkMode}
@@ -104,6 +118,17 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
 
         {/* Mobile menu button */}
         <div className={styles.mobileControls}>
+          <motion.button
+            onClick={toggleLanguage}
+            className={styles.languageToggle}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Toggle language"
+            title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
+          >
+            <Globe size={20} />
+          </motion.button>
+          
           <motion.button
             onClick={toggleDarkMode}
             className={styles.themeToggle}
@@ -165,12 +190,23 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
                     onClick={() => setIsOpen(false)}
                     style={{ display: 'block' }}
                   >
-                    {item.name}
+                    {t(item.name)}
                   </a>
                 ))}
               </nav>
 
               <div className={styles.sidebarFooter}>
+                <motion.button 
+                  onClick={toggleLanguage} 
+                  className={styles.languageToggle} 
+                  aria-label="Toggle language"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <Globe size={18} />
+                  <span>{language.toUpperCase()}</span>
+                </motion.button>
+                
                 <button onClick={toggleDarkMode} className={styles.themeToggle} aria-label="Toggle dark mode">
                   {darkMode ? <Sun size={18} /> : <Moon size={18} />}
                 </button>

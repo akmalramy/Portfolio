@@ -1,44 +1,47 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from '../context/useTranslation'
 import SectionWrapper from './SectionWrapper'
 import TimelineItem from './TimelineItem'
 import styles from './Experience.module.css'
 
 const Experience = () => {
+  const { t } = useTranslation()
+
   const experiences = [
     {
-      title: 'Data Engineering Microsoft Track',
-      company: 'DEPI',
-      location: 'Remote',
-      period: 'NOV 2025 - Present',
+      title: t('Data Engineering Microsoft Track'),
+      company: t('DEPI'),
+      location: t('Remote'),
+      period: t('NOV 2025 - Present'),
       responsibilities: [
-        'Built secure cloud data architectures',
-        'Developed ETL/ELT pipelines using Azure Data Factory, Databricks, PySpark, SQL',
-        'Designed scalable Azure Synapse data warehouses',
-        'Implemented data transformation and processing workflows'
+        t('Built secure cloud data architectures'),
+        t('Developed ETL/ELT pipelines using Azure Data Factory, Databricks, PySpark, SQL'),
+        t('Designed scalable Azure Synapse data warehouses'),
+        t('Implemented data transformation and processing workflows')
       ]
     },
     {
-      title: 'HR Talent Acquisition',
-      company: 'National Bank of Egypt',
-      location: 'Cairo, Egypt',
-      period: 'JUL 2025 - AUG 2025',
+      title: t('HR Talent Acquisition'),
+      company: t('National Bank of Egypt'),
+      location: t('Cairo, Egypt'),
+      period: t('JUL 2025 - AUG 2025'),
       responsibilities: [
-        'Built analytics dashboards supporting recruitment insights',
-        'Conducted workforce analytics supporting accessibility initiatives',
-        'Analyzed recruitment data to optimize hiring processes',
-        'Created reports for HR management decision support'
+        t('Built analytics dashboards supporting recruitment insights'),
+        t('Conducted workforce analytics supporting accessibility initiatives'),
+        t('Analyzed recruitment data to optimize hiring processes'),
+        t('Created reports for HR management decision support')
       ]
     },
     {
-      title: 'Data Analyst Intern',
-      company: 'National Telecom Regulatory Authority',
-      location: 'Cairo, Egypt',
-      period: 'JUL 2024 - AUG 2024',
+      title: t('Data Analyst Intern'),
+      company: t('National Telecom Regulatory Authority'),
+      location: t('Cairo, Egypt'),
+      period: t('JUL 2024 - AUG 2024'),
       responsibilities: [
-        'Analyzed large datasets using Excel & SQL',
-        'Built Power BI dashboards for KPIs',
-        'Created IoT business model research',
-        'Delivered data-driven insights for decision making'
+        t('Analyzed large datasets using Excel & SQL'),
+        t('Built Power BI dashboards for KPIs'),
+        t('Created IoT business model research'),
+        t('Delivered data-driven insights for decision making')
       ]
     },
   ]
@@ -59,7 +62,7 @@ const Experience = () => {
           className={styles.title}
           variants={titleVariants}
         >
-          Work <span className={styles.gradient}>Experience</span>
+          <span className={styles.gradient}>{t('Work Experience')}</span>
         </motion.h2>
         
         <div className={styles.timeline}>

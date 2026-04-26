@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Mail, Phone, Linkedin, Send } from 'lucide-react'
+import { useTranslation } from '../context/useTranslation'
 import SectionWrapper from './SectionWrapper'
 import AnimatedCard from './AnimatedCard'
 import styles from './Contact.module.css'
 
 const Contact = () => {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -15,7 +17,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log('Form submitted:', formData)
-    alert('Thank you for your message! I will get back to you soon.')
+    alert(t('Thank you for your message! I will get back to you soon.'))
     setFormData({ name: '', email: '', message: '' })
   }
 
@@ -26,23 +28,22 @@ const Contact = () => {
     })
   }
 
-
   const contactInfo = [
     {
       icon: <Mail size={24} />,
-      label: 'Email',
+      label: t('Email'),
       value: 'akmallramy@gmail.com',
       href: 'mailto:akmallramy@gmail.com'
     },
     {
       icon: <Phone size={24} />,
-      label: 'Phone',
+      label: t('Phone'),
       value: '+20 11 55660358',
       href: 'tel:+201155660358'
     },
     {
       icon: <Linkedin size={24} />,
-      label: 'LinkedIn',
+      label: t('LinkedIn'),
       value: 'https://www.linkedin.com/in/akmal-ramy',
       href: 'https://www.linkedin.com/in/akmal-ramy'
     }
@@ -64,16 +65,15 @@ const Contact = () => {
           className={styles.title}
           variants={titleVariants}
         >
-          Get In <span className={styles.gradient}>Touch</span>
+          {t('Get In')} <span className={styles.gradient}>{t('Touch')}</span>
         </motion.h2>
         
         <div className={styles.grid}>
           <AnimatedCard variant="glass" delay={0}>
             <div className={styles.infoCard}>
-              <h3>Contact Information</h3>
+              <h3>{t('Contact Information')}</h3>
               <p className={styles.subtitle}>
-                I'm always open to discussing new opportunities, collaborations, 
-                or just having a chat about data engineering.
+                {t("I'm always open to discussing new opportunities, collaborations, or just having a chat about data engineering.")}
               </p>
               
               <div className={styles.contactList}>
@@ -81,8 +81,8 @@ const Contact = () => {
                   <motion.a
                     key={index}
                     href={item.href}
-                    target={item.label === 'LinkedIn' ? '_blank' : undefined}
-                    rel={item.label === 'LinkedIn' ? 'noopener noreferrer' : undefined}
+                    target={item.label === t('LinkedIn') ? '_blank' : undefined}
+                    rel={item.label === t('LinkedIn') ? 'noopener noreferrer' : undefined}
                     className={styles.contactItem}
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
@@ -106,7 +106,7 @@ const Contact = () => {
           <AnimatedCard variant="glass" delay={0.2}>
             <form onSubmit={handleSubmit} className={styles.form}>
               <div className={styles.formGroup}>
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">{t('Name')}</label>
                 <input
                   type="text"
                   id="name"
@@ -115,12 +115,12 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className={styles.input}
-                  placeholder="Your Name"
+                  placeholder={t('Your Name')}
                 />
               </div>
 
               <div className={styles.formGroup}>
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">{t('Email')}</label>
                 <input
                   type="email"
                   id="email"
@@ -129,12 +129,12 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className={styles.input}
-                  placeholder="yourname@example.com"
+                  placeholder={t('yourname@example.com')}
                 />
               </div>
 
               <div className={styles.formGroup}>
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">{t('Message')}</label>
                 <textarea
                   id="message"
                   name="message"
@@ -143,7 +143,7 @@ const Contact = () => {
                   required
                   rows="5"
                   className={`${styles.input} ${styles.textarea}`}
-                  placeholder="Your message..."
+                  placeholder={t('Your message...')}
                 ></textarea>
               </div>
 
@@ -153,7 +153,7 @@ const Contact = () => {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
-                <span>Send Message</span>
+                <span>{t('Send Message')}</span>
                 <Send size={20} />
               </motion.button>
             </form>

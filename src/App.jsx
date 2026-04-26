@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { TranslationProvider } from './context/TranslationContext'
 import FloatingNavbar from './components/FloatingNavbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -27,17 +28,19 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <FloatingNavbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Education />
-      <Contact />
-      <Footer />
-    </div>
+    <TranslationProvider>
+      <div className="app">
+        <FloatingNavbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Education />
+        <Contact />
+        <Footer />
+      </div>
+    </TranslationProvider>
   )
 }
 
