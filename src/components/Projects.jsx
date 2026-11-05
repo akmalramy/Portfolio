@@ -11,6 +11,12 @@ const Projects = () => {
 
   const projects = [
     {
+      title: t('Real-Time Traffic Analytics | Azure Stream Analytics & Event Hubs'),
+      description: t('Architected an end-to-end real-time data streaming pipeline simulating traffic across 5 Egyptian transit corridors (DEPI Graduation Project). Telemetry is streamed into Azure Event Hubs, processed for real-time anomaly detection (speeding, congestion, accident risks), and persisted as raw events, alerts, and 60-second rolling aggregations in Azure SQL Database with automated failover.'),
+      tech: ['Azure Event Hubs', 'Azure Stream Analytics', 'Azure SQL Database', 'Python', 'pyodbc', 'T-SQL', 'Real-Time Streaming', 'Anomaly Detection'],
+      github: 'https://github.com/nhahub/NHA-4-135',
+    },
+    {
       title: t('Olist E-Commerce Data Analysis | End-to-End BI Project'),
       description: t('Delivered an end-to-end analysis of the 1.5M-row Olist E-Commerce dataset using Python, SQL Server, and Power BI. Built a clean relational database and star-schema model with advanced DAX measures, creating an interactive dashboard that identified logistics issues impacting customer satisfaction and retention.'),
       tech: ['Python', 'Pandas', 'NumPy', 'SQL Server', 'T-SQL', 'Power BI', 'DAX', 'Data Modeling', 'Star Schema', 'ETL'],

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Calendar, MapPin } from 'lucide-react'
+import { Calendar, MapPin, ExternalLink } from 'lucide-react'
 import styles from './TimelineItem.module.css'
 
 const TimelineItem = ({ 
@@ -8,6 +8,7 @@ const TimelineItem = ({
   location, 
   period, 
   responsibilities, 
+  link,
   index 
 }) => {
   const itemVariants = {
@@ -39,7 +40,19 @@ const TimelineItem = ({
         <div className={styles.timelineCard}>
           <div className={styles.cardHeader}>
             <h3>{title}</h3>
-            <p className={styles.company}>{company}</p>
+            {link ? (
+              <a 
+                href={link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={styles.companyLink}
+              >
+                <span>{company}</span>
+                <ExternalLink size={15} className={styles.linkIcon} />
+              </a>
+            ) : (
+              <p className={styles.company}>{company}</p>
+            )}
           </div>
           
           <div className={styles.meta}>
@@ -54,9 +67,20 @@ const TimelineItem = ({
           </div>
           
           <ul className={styles.responsibilities}>
-            {responsibilities.map((resp, idx) => (
-              <li key={idx}>{resp}</li>
-            ))}
+            {responsibilities.map((resp, idx) => {
+              const colonIndex = resp.indexOf(': ')
+              if (colonIndex !== -1 && colonIndex < 45) {
+                const prefix = resp.substring(0, colonIndex)
+                const rest = resp.substring(colonIndex + 1)
+                return (
+                  <li key={idx}>
+                    <strong className={styles.bulletTitle}>{prefix}:</strong>
+                    <span>{rest}</span>
+                  </li>
+                )
+              }
+              return <li key={idx}>{resp}</li>
+            })}
           </ul>
         </div>
       </div>

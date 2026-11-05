@@ -123,6 +123,32 @@
   margin-bottom: var(--spacing-sm);
 }
 
+.companyLink {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.companyLink:hover {
+  color: var(--color-accent);
+}
+
+.companyLink .linkIcon {
+  opacity: 0.75;
+  transition: transform var(--transition-base), opacity var(--transition-base);
+}
+
+.companyLink:hover .linkIcon {
+  opacity: 1;
+  transform: translate(2px, -2px);
+}
+
 .meta {
   display: flex;
   gap: var(--spacing-md);
@@ -154,6 +180,17 @@
   color: var(--color-text-muted);
   font-size: var(--text-sm);
   line-height: 1.6;
+}
+
+.bulletTitle {
+  color: var(--color-text);
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+[dir="rtl"] .bulletTitle {
+  margin-right: 0;
+  margin-left: 0.35rem;
 }
 
 .timelineItem.left .responsibilities li {
