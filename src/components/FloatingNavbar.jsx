@@ -9,6 +9,7 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
+  const isRtl = language === 'ar'
 
   const navItems = [
     { name: 'Home', href: '#home' },
@@ -26,7 +27,7 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
       
       // Detect active section
       const sections = navItems.map(item => item.href.substring(1))
-      const scrollPosition = window.scrollY + 100
+      const scrollPosition = window.scrollY + 120
       
       for (let section of sections) {
         const element = document.getElementById(section)
@@ -57,9 +58,9 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
   return (
     <motion.nav 
       className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] }}
+      initial={{ y: -80, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
     >
       <div className={styles.container}>
         <motion.a 
@@ -74,46 +75,52 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
 
         {/* Desktop Navigation */}
         <div className={styles.desktopNav}>
-          {navItems.map((item) => (
-            <motion.a
-              key={item.name}
-              href={item.href}
-              className={`${styles.navLink} ${activeSection === item.href.substring(1) ? styles.active : ''}`}
-              whileHover={{ y: -2 }}
+          <div className={styles.navLinks}>
+            {navItems.map((item) => (
+              <motion.a
+                key={item.name}
+                href={item.href}
+                className={`${styles.navLink} ${activeSection === item.href.substring(1) ? styles.active : ''}`}
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                {t(item.name)}
+                {activeSection === item.href.substring(1) && (
+                  <motion.div 
+                    className={styles.activeIndicator}
+                    layoutId="activeIndicator"
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
+              </motion.a>
+            ))}
+          </div>
+
+          <div className={styles.navDivider} />
+
+          <div className={styles.navActions}>
+            <motion.button
+              onClick={toggleLanguage}
+              className={styles.languageToggle}
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              aria-label="Toggle language"
+              title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
             >
-              {t(item.name)}
-              {activeSection === item.href.substring(1) && (
-                <motion.div 
-                  className={styles.activeIndicator}
-                  layoutId="activeIndicator"
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                />
-              )}
-            </motion.a>
-          ))}
-          
-          <motion.button
-            onClick={toggleLanguage}
-            className={styles.languageToggle}
-            whileHover={{ scale: 1.1, rotate: 180 }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="Toggle language"
-            title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
-          >
-            <Globe size={20} />
-            <span className={styles.languageLabel}>{language.toUpperCase()}</span>
-          </motion.button>
-          
-          <motion.button
-            onClick={toggleDarkMode}
-            className={styles.themeToggle}
-            whileHover={{ scale: 1.1, rotate: 180 }}
-            whileTap={{ scale: 0.9 }}
-            aria-label="Toggle dark mode"
-          >
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </motion.button>
+              <Globe size={16} />
+              <span className={styles.languageLabel}>{language.toUpperCase()}</span>
+            </motion.button>
+            
+            <motion.button
+              onClick={toggleDarkMode}
+              className={styles.themeToggle}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              aria-label="Toggle dark mode"
+            >
+              {darkMode ? <Sun size={18} /> : <Moon size={18} />}
+            </motion.button>
+          </div>
         </div>
 
         {/* Mobile menu button */}
@@ -121,32 +128,33 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
           <motion.button
             onClick={toggleLanguage}
             className={styles.languageToggle}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             aria-label="Toggle language"
             title={language === 'en' ? 'Switch to Arabic' : 'Switch to English'}
           >
-            <Globe size={20} />
+            <Globe size={16} />
+            <span className={styles.languageLabel}>{language.toUpperCase()}</span>
           </motion.button>
           
           <motion.button
             onClick={toggleDarkMode}
             className={styles.themeToggle}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             aria-label="Toggle dark mode"
           >
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+            {darkMode ? <Sun size={18} /> : <Moon size={18} />}
           </motion.button>
           
           <motion.button
             onClick={() => setIsOpen(!isOpen)}
             className={styles.menuButton}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             aria-label="Toggle menu"
           >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={20} /> : <Menu size={20} />}
           </motion.button>
         </div>
       </div>
@@ -166,9 +174,9 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
 
             <motion.aside
               className={styles.sidebar}
-              initial={{ x: '-100%' }}
+              initial={{ x: isRtl ? '100%' : '-100%' }}
               animate={{ x: 0 }}
-              exit={{ x: '-100%' }}
+              exit={{ x: isRtl ? '100%' : '-100%' }}
               transition={{ type: 'tween', duration: 0.25 }}
             >
               <div className={styles.sidebarHeader}>
@@ -182,13 +190,12 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
               </div>
 
               <nav className={styles.sidebarNav}>
-                {navItems.map((item, index) => (
+                {navItems.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
                     className={`${styles.mobileNavLink} ${activeSection === item.href.substring(1) ? styles.active : ''}`}
                     onClick={() => setIsOpen(false)}
-                    style={{ display: 'block' }}
                   >
                     {t(item.name)}
                   </a>
@@ -200,10 +207,10 @@ const FloatingNavbar = ({ darkMode, toggleDarkMode }) => {
                   onClick={toggleLanguage} 
                   className={styles.languageToggle} 
                   aria-label="Toggle language"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
                 >
-                  <Globe size={18} />
+                  <Globe size={16} />
                   <span>{language.toUpperCase()}</span>
                 </motion.button>
                 

@@ -211,11 +211,54 @@
   right: 0;
 }
 
+/* RTL Support */
+[dir="rtl"] .timelineItem.left {
+  text-align: left;
+}
+
+[dir="rtl"] .timelineItem.right {
+  text-align: right;
+}
+
+[dir="rtl"] .timelineItem.left .meta {
+  justify-content: flex-start;
+}
+
+[dir="rtl"] .timelineItem.right .meta {
+  justify-content: flex-end;
+}
+
+[dir="rtl"] .responsibilities li {
+  padding-left: 0;
+  padding-right: var(--spacing-md);
+}
+
+[dir="rtl"] .responsibilities li::before {
+  left: auto;
+  right: 0;
+  content: '◃';
+}
+
+[dir="rtl"] .timelineItem.left .responsibilities li {
+  padding-right: 0;
+  padding-left: var(--spacing-md);
+}
+
+[dir="rtl"] .timelineItem.left .responsibilities li::before {
+  right: auto;
+  left: 0;
+  content: '◃';
+}
+
 @media (max-width: 768px) {
   .timelineItem {
     grid-template-columns: 40px 1fr;
     gap: var(--spacing-md);
     text-align: left;
+  }
+  
+  [dir="rtl"] .timelineItem {
+    text-align: right;
   }
   
   .timelineItem.left .timelineContent,
@@ -240,6 +283,16 @@
   .timelineItem.left .responsibilities li::before {
     left: 0;
     right: auto;
+  }
+  
+  [dir="rtl"] .timelineItem.left .responsibilities li {
+    padding-right: var(--spacing-md);
+    padding-left: 0;
+  }
+  
+  [dir="rtl"] .timelineItem.left .responsibilities li::before {
+    right: 0;
+    left: auto;
   }
   
   .meta {

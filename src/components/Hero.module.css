@@ -23,6 +23,7 @@
 
 .container {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,6 +34,11 @@
 
 .content {
   padding-right: var(--spacing-xl);
+}
+
+[dir="rtl"] .content {
+  padding-right: 0;
+  padding-left: var(--spacing-xl);
 }
 
 .badge {
@@ -299,6 +305,32 @@
   border-radius: 2px;
 }
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  .avatarWrapper {
+    width: 440px;
+    height: 440px;
+  }
+  
+  .avatar {
+    width: 260px;
+    height: 260px;
+  }
+  
+  .ring {
+    width: 330px;
+    height: 330px;
+  }
+  
+  .ringOuter {
+    width: 390px;
+    height: 390px;
+  }
+}
+
 @media (max-width: 968px) {
   .container {
     grid-template-columns: 1fr;
@@ -308,6 +340,10 @@
   .content {
     padding-right: 0;
     text-align: center;
+  }
+  
+  [dir="rtl"] .content {
+    padding-left: 0;
   }
   
   .badge,
